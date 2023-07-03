@@ -1,11 +1,17 @@
 # Advanced Image Segmentation Techniques for Neural Activity Detection via C-fos Immediate Early Gene Expression
 ## 0. Preface 
 This project is a subsidiary code of the Advanced Image Segmentation Techniques for Neural Activity Detection via C-fos Immediate Early Gene Expression project. Due to the extremely low coupling of the modules, I have split the functions into different files and integrated them into easy-to-use ipynb files, mainly containing the following six:
+
 1.Mask_Image_Ploting.ipynb is responsible for processing the manually annotated Labelme Json files and generating high-quality mask images in the corresponding directory.
+
 2.Autoencoder_and_clustering.ipynb is responsible for K-means clustering of the dataset, and then saved in different directories.
+
 3.Local_automatic_mask_generator_example.ipynb SAM intervenes in the generation pipeline of the mask image, not able to run directly, this item is ported to Google Colab in the project, and reads the web files to work.
+
 4./SAM_CRAFT/UNET.ipynb The initialization, training, prediction and iteration of the UNET network architecture are done in this link. This is the backbone part of our work.
+
 5./CroppingCraft/CROPPING.ipynb (cropping.py) is responsible for the overlapping and sliding window cropping of the dataset.
+
 6./CroppingCraft/COMBI.ipynb (combi.py) is responsible for the sliding window reduction of the dataset and the central cropping and stitching of the images to be processed.
 
 ## 1.Environment Configuration
