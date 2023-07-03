@@ -10,9 +10,13 @@ This project is a subsidiary code of the Advanced Image Segmentation Techniques 
 
 ## 1.Environment Configuration
 Python version = 3.9.16
+
 TensorFlow version = 2.10.0 
+
 Numpy version = 1.24.3 
+
 GPU/CPU = GTX1650 
+
 Labelme (python = 3.7) 
 
 ## 2. Dataset and Pre-trained Model Preparation
