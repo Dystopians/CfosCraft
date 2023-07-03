@@ -27,7 +27,7 @@ Labelme (python = 3.7)
 
 ## 2. Dataset and Pre-trained Model Preparation
 Download our dataset and pre-trained model (\SAM_CRAFT\RESULT) here.
-
+https://drive.google.com/file/d/1DRVZije8yjR5kwwkbAz9mFbUNKr_DxtJ/view?usp=sharing
 A simple merge of our code with the sibling directory of the dataset will give us the complete project.
 If you want to customize the dataset and generate it with SAM, you can refer to our Local_automatic_mask_generator_example.ipynb
 
